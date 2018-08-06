@@ -1,0 +1,14 @@
+{
+  "name": "node_curso",
+  "version": "1.0.0",
+  "description": "Site da casa do Codigo",
+  "main": "produtos.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ronilson Reis",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

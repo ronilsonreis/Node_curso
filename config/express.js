@@ -1,6 +1,6 @@
 var app  = require('express')();
 app.set('view engine','ejs');
-app.set('view','./app/views')
+app.set('views','./app/views')
 
 module.exports = function() {    
     return app;

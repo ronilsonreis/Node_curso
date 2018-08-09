@@ -1,6 +1,7 @@
-module.exports = function() {
-    var express  = require('express');
-    var app = express();
-    app.set('view engine','ejs');
+var app  = require('express')();
+app.set('view engine','ejs');
+app.set('view','./app/views')
+
+module.exports = function() {    
     return app;
 }

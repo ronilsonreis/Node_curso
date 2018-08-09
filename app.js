@@ -1,8 +1,6 @@
 var app = require('./config/express')();
+var ratasProdutos = require('./app/routes/produtos')(app);
 
-app.get('/produtos',function(req,res){
-    res.render("produtos/lista");
-});
 app.listen(3000,function(){
     console.log("Server UP!!")
 

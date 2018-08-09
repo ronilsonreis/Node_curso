@@ -11,7 +11,8 @@ module.exports=function(app){
         });
         //consulta
         //res.render("produtos/lista");
-        var resutados = connection.query('select * from livros',function(err,result){
+        var resutados = connection.query('select * from produtos',function(err,result){
+            res.send(result); 
             
         });
         connection.end();
